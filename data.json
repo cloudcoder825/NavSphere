@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "title": "测试歌曲",
+    "cover": "https://picsum.photos/300/400",
+    "url": "https://www.baidu.com",
+    "category": "歌曲"
+  }
+]
