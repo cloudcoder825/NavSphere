@@ -1,13 +1,19 @@
-name = "navsphere"
-compatibility_date = "2024-11-11"
-compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".vercel/output/static"
+name = "navsite-3ic"
+compatibility_date = "2024-09-25"
 
-[env.production.vars]
-GITHUB_CLIENT_ID = "Ov23lig3bTXpZHrPO1c8"
-GITHUB_OWNER = "tianyaxiang"
-GITHUB_REPO = "NavSphere"
+[vars.production]
+GITHUB_ID = "0v231ilQo0pEZyA0vb1j"
+GITHUB_SECRET = "745d17163cc3fdcc3d5f90b747a09bff7084683d"  
+GITHUB_OWNER = "CloudCoder825"
+GITHUB_REPO = "nav-data"
 GITHUB_BRANCH = "main"
-NEXTAUTH_URL = "https://nav.newkit.site/api/auth"
-NEXT_PUBLIC_API_URL="https://nav.newkit.site"
+NEXTAUTH_URL = "https://navsite-3ic.pages.dev/api/auth"
+NEXT_PUBLIC_API_URL = "https://navsite-3ic.pages.dev"
 
+[vars.preview]
+GITHUB_ID = "0v231ilQo0pEZyA0vb1j"
+GITHUB_SECRET = "745d17163cc3fdcc3d5f90b747a09bff7084683d"  
+GITHUB_OWNER = "CloudCoder825"
+GITHUB_REPO = "nav-data"
+NEXTAUTH_URL = "https://navsite-3ic.pages.dev/api/auth"
+NEXT_PUBLIC_API_URL = "https://navsite-3ic.pages.dev"
