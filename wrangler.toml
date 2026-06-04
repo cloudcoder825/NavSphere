@@ -1,6 +1,6 @@
 name = "navsite-3ic"
 compatibility_date = "2024-09-25"
-
+compatibility_flags = ["nodejs_compat"]
 [vars.production]
 GITHUB_ID = "0v231ilQo0pEZyA0vb1j"
 GITHUB_SECRET = "745d17163cc3fdcc3d5f90b747a09bff7084683d"  
